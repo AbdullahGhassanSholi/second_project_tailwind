@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="flex justify-around h-20">
+      <div class="flex pt-8 gap-1">
+        <img src="images/logo.png" class="h-12" alt="" />
+        <h1 class="grid grid-cols-3 place-items-center text-2xl font-bold">
+          tailwindcss
+        </h1>
+      </div>
+      <ul class="flex flex-row gap-4 pt-5">
+        <li class="grid place-items-center">Portfolio</li>
+        <li class="grid place-items-center">About</li>
+        <li class="grid place-items-center">Contact</li>
+        <li class="grid place-items-center">Social</li>
+        <li
+          class="grid mt-3 place-items-center bg-orange-500 h-10 px-7 text-white rounded-full"
+        >
+          Call Me
+        </li>
+      </ul>
+    </header>
+
+    <div class="flex justify-around align-middle px-20">
+      <div class="flex flex-col justify-center align-middle w-9/12 gap-3">
+        <h1 class="text-2xl font-bold">
+          Rapidly build modern websites without ever leaving your HTML.
+        </h1>
+        <p class="">
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sint iste
+          odio facere dolore quia, dolorum numquam quae laborum est aut hic
+          maxime doloribus excepturi, quasi ullam magnam distinctio placeat?
+          Optio.
+        </p>
+        <button class="px-8 bg-orange-500 rounded-full py-2 text-white w-40">
+          Get Started
+        </button>
+      </div>
+      <div class="h-96">
+        <img src="images/undraw_summer_1wi4.svg" class="h-full" alt="" />
+      </div>
+    </div>
+    <div class="flex flex-col justify-center align-middle text-center gap-5">
+      <h1 class="pt-10 font-bold text-3xl">
+        "Best practices" don't actually work.
+      </h1>
+      <p>
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Soluta quod
+        architecto ducimus magnam incidunt quo assumenda deserunt ut accusamus.
+        Natus doloribus delectus obcaecati suscipit enim facere, repudiandae
+        quisquam eaque blanditiis.
+      </p>
+
+      <div class="flex gap-4 p-20">
+        <div
+          class="flex flex-col items-center w-1/3 bg-yellow-100 h-64 rounded-2xl"
+        >
+          <img
+            src="images/undraw_summer_1wi4.svg"
+            class="rounded-full bg-yellow-200 w-24 h-24 -m-14"
+            alt=""
+          />
+
+          <h3 class="pt-16 text-xl font-bold">Adam Sandler</h3>
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Suscipit
+            cum fugit quis modi, vel reprehenderit quisquam. Dolorem
+          </p>
+        </div>
+
+        <div class="flex flex-col items-center w-1/3 bg-yellow-100 rounded-2xl">
+          <img
+            src="images/undraw_summer_1wi4.svg"
+            class="rounded-full bg-yellow-200 w-24 h-24 -m-14"
+            alt=""
+          />
+
+          <h3 class="pt-16 text-xl font-bold">Adam Sandler</h3>
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Suscipit
+            cum fugit quis modi, vel reprehenderit quisquam. Dolorem
+          </p>
+        </div>
+        <div class="flex flex-col items-center w-1/3 bg-yellow-100 rounded-2xl">
+          <img
+            src="images/undraw_summer_1wi4.svg"
+            class="rounded-full bg-yellow-200 w-24 h-24 -m-14"
+            alt=""
+          />
+
+          <h3 class="pt-16 text-xl font-bold">Adam Sandler</h3>
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Suscipit
+            cum fugit quis modi, vel reprehenderit quisquam. Dolorem
+          </p>
+        </div>
+      </div>
+    </div>
+    <div
+      class="grid grid-cols-2 gap-96 grid-rows-1 place-items-center bg-orange-500 h-24 w-full"
+    >
+      <h1 class="font-bold text-white">Move even faster with Tailwind UI.</h1>
+      <button class="bg-white p-1 px-3 rounded-3xl text-orange-500 h-8">
+        Start Here
+      </button>
+    </div>
+    <div class="flex justify-around bg-blue-950 py-10">
+      <div class="flex flex-col gap-2">
+        <p class="text-white">Copyright &copy; 2023,All Rights Reserved</p>
+        <div class="flex gap-1">
+          <img src="images/logo.png" class="h-12" alt="" />
+          <h1 class="grid grid-cols-3 place-items-center text-white">
+            tailwindcss
+          </h1>
+        </div>
+        <div class="flex gap-2">
+          <img src="images/facebook-box-fill.png" alt="" /><img
+            src="images/instagram-fill.png"
+            alt=""
+          /><img src="images/youtube-fill.png" alt="" /><img
+            src="images/linkedin-fill.png"
+            alt=""
+          /><img src="images/twitter-fill.png" alt="" />
+        </div>
+      </div>
+      <div>
+        <ul class="text-white pt-5">
+          <li>Home</li>
+          <li>About</li>
+          <li>Content</li>
+        </ul>
+      </div>
+      <div>
+        <ul class="text-white pt-5">
+          <li>Imprint</li>
+          <li>Privacy</li>
+          <li>Credits</li>
+        </ul>
+      </div>
+      <div class="flex flex-col gap-14 text-white">
+        <div class="flex gap-4">
+          <input
+            class="p-1 px-2 h-10 rounded-full"
+            type="text"
+            placeholder="Subscribe to Newsetter"
+          /><button
+            class="bg-orange-500 w-11 p-1 px-2 h-10 rounded-full text-white"
+          >
+            Go
+          </button>
+        </div>
+        <p>Copyright &copy; 2023,All Rights Reserved</p>
+      </div>
+    </div>
+  </body>
+</html>
